@@ -39,7 +39,7 @@ server = app.server
 
 # Cargar datos
 try:
-    file_path = "C:/Users/EMANUEL/Downloads/ws.xlsx"
+    file_path = "ws.xlsx"
     df = pd.read_excel(file_path)
 except Exception as e:
     df = pd.DataFrame()
