@@ -35,6 +35,7 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.MINTY],
     suppress_callback_exceptions=True
 )
+server = app.server
 
 # Cargar datos
 try:
