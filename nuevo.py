@@ -1,5 +1,4 @@
 import dash
-from dash import dash_table
 import pandas as pd
 from dash import dcc, html
 from dash import dash_table
@@ -27,7 +26,6 @@ import base64
 from dash.dependencies import Input, Output, State
 import numpy as np
 from dash import dcc, html
-import dash_table
 import plotly.graph_objs as go
 
 # Configuración de Dash
